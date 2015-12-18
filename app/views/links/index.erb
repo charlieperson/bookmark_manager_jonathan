@@ -5,8 +5,14 @@
   <% @links.each do |link| %>
   <li>
     Title: <%= link.title %>
+    <br>
     URL: <%= link.url %>
+    <br>
     Tags: <%= link.tags.map(&:name).join(', ') %>
+    <br>
   </li>
+  <br>
   <% end %>
+  <br>
+  <a href="/links/new">Add a link here mate!</a>
 </ul>
