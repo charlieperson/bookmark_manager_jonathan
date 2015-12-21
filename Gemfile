@@ -14,4 +14,5 @@ group :development, :test do
   gem 'rspec-sinatra'
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'bcrypt'
 end
